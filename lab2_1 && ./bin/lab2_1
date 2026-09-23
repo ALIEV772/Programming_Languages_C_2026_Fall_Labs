@@ -1,0 +1,23 @@
+#include
+// Function declaration
+int sum_to_n(int n);
+int main() {
+int n;
+printf("Enter positive integer (n): ");
+scanf("%d", &n);
+if (n < 1) {
+printf("Error: Please enter a number greater than or equal to 1.\n");
+} else {
+int result = sum_to_n(n);
+printf("The sum of 1 to %d is %d\n", n, result);
+}
+return 0;
+}
+// Function definition
+int sum_to_n(int n) {
+int sum = 0;
+for (int i = 1; i <= n; i++) {
+sum += i;
+}
+return sum;
+}
