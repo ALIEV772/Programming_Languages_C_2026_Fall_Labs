@@ -1,7 +1,7 @@
 /*
  * week4_1_dynamic_array.c
- * Author: [Your Name]
- * Student ID: [Your ID]
+ * Author: [ALI ALIYEV]
+ * Student ID: [251ADB254]
  * Description:
  *   Demonstrates creation and usage of a dynamic array using malloc.
  *   Allocate memory for n integers, read them from the user,
